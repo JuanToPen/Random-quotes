@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#gradient{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(rgb(0, 255, 115),rgb(175, 250, 0));
+}
+
+#container{
+    border-radius: 1em;
+    background-color: white;
+    position: fixed;
+    width: 50%;
+    height: 50%;
+    transform: translate(50%,50%);
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.452)
+}
+
+#twitterLogo{
+    margin-left: 1vw;
+    width:22%;
+}
+
+
+#twitterContainer{
+    text-decoration: none;
+    width:125px;
+    display: flex;
+    padding: 0.3vh 0;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    margin-right: 0.5vw;
+    border-width: 1px;
+    border-radius: 1em;
+    font-family: title;
+    font-size: 1.2em;
+    font-weight: 100;
+    color: rgb(255, 255, 255);
+    background-color: black;
+}
+
+#twitterContainer:hover{
+    color:rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+
+
+#lineBreak{
+    margin-right: 2vw;
+    margin-left: 2vw;
+}
+
+#options{
+    margin: 3vh;
+    display: flex;
+    justify-content: center;
+}
+
+#quote{
+    margin:10.5vh 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    word-break: break-all;
+    font-family: quote;
+    font-weight: 600;
+}
+
+#title{
+    font-size: 2em;
+    font-family: title;
+}
+
+#button{
+    font-size: 1.1em;
+    width:125px;
+    margin-left: 0.5vw;
+    color: white;
+    font-family: title;
+    padding:0 1vw;
+    padding-top: 0.5vh;
+    padding-bottom: 0.5vh;
+    background-color:rgb(142, 250, 0);
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    border-radius: 4em;
+}
+
+#button:hover{
+    color:rgb(142, 250, 0);
+    background-color: white;
+    border-color: rgb(142, 250, 0);
+}
+
+#content{
+    margin: 3vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#author{
+    align-self: flex-end;
+    margin-right: 2vw;
+}
+
+@font-face {
+    font-family:quote;
+    src: url(Rosehot.ttf);
+}
+
+@font-face {
+    font-family:title;
+    src: url(gnuolane\ rg.otf);
+}
